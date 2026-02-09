@@ -10,12 +10,13 @@ void setup()
   attachInterrupt(0, displayHappy, RISING);
   attachInterrupt(1, displaySad, RISING);  
 }
+//This got changed to display ":)"
 void displayHappy()
 {
   lcd.clear();
   lcd.print( ":)" );
 }
-
+// This got changed to display ":("
 void displaySad()
 {
   lcd.clear();
